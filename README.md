@@ -47,8 +47,8 @@ To run any of the projects or exercises:
 - [x] Variables & Data Types
 - [x] Loops & Conditionals
 - [x] Basic Functions
-- [x] Object-Oriented Programming (OOP)
-- [x] Advanced Data Structures
+- [ ] Object-Oriented Programming (OOP)
+- [ ] Advanced Data Structures
 
 ---
 
