@@ -40,12 +40,23 @@ Welcome to the **Simple Console Calculator**! This calculator is built using C# 
 ## 📸 Screenshots
 
 _Provide screenshots here to demonstrate how the calculator looks in action!_  
-- **Main Menu**  
-- **Performing a Calculation**  
-- **Error Handling**  
 
-> To add a screenshot, simply run the calculator, take a screenshot (using tools like Snipping Tool or any screen capture tool), and place it here!
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <strong>Main Menu</strong><br>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/On%20my%20own%20account/SimpleCalculator/Screenshoots/Screeshoot%201.PNG" alt="Main Menu" style="width: 600px;">
+  </div>
+  
+  <div>
+    <strong>Performing a Calculation</strong><br>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/On%20my%20own%20account/SimpleCalculator/Screenshoots/Screeshoot%202.PNG" alt="Performing a Calculation" style="width: 600px;">
+  </div>
 
+  <div>
+    <strong>Error Handling</strong><br>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/On%20my%20own%20account/SimpleCalculator/Screenshoots/Screeshoot%203.PNG" alt="Error Handling" style="width: 600px;">
+  </div>
+</div>
 ---
 
 🔧 **Built with C#**, this console app is your go-to for quick and easy calculations! Enjoy calculating! 😊
