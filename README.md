@@ -47,8 +47,8 @@ To run any of the projects or exercises:
 - [x] Variables & Data Types
 - [x] Loops & Conditionals
 - [x] Basic Functions
-- [ ] Object-Oriented Programming (OOP)
-- [ ] Advanced Data Structures
+- [x] Object-Oriented Programming (OOP)
+- [x] Advanced Data Structures
 
 ---
 
@@ -63,7 +63,7 @@ Feel free to browse through my code, fork the repo, or suggest improvements! Eve
 
 ### 📫 Contact
 If you have any questions or feedback, don’t hesitate to reach out:
-- **Email**: josue.itla@example.com
+- **Email**: josuehernandez2314@gmail.com
 - **GitHub**: [@JosueIsOffline](https://github.com/JosueIsOffline)
 
 ---
