@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itla-programming1-exercises", "itla-programming1-exercises\itla-programming1-exercises.csproj", "{EA967D09-292D-4189-BCFE-553F5F5FA21E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Calculator", "itla-programming1-exercises\Simple Calculator.csproj", "{EA967D09-292D-4189-BCFE-553F5F5FA21E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
