@@ -39,8 +39,6 @@ Welcome to the **Simple Console Calculator**! This calculator is built using C# 
 
 ## 📸 Screenshots
 
-_Provide screenshots here to demonstrate how the calculator looks in action!_  
-
 <div style="display: flex; justify-content: space-around;">
   <div>
     <strong>Main Menu</strong><br>
