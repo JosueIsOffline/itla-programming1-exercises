@@ -71,7 +71,6 @@ namespace AppSimple
             }
 
             int result = num1.Value + num2.Value;
-            label_result.Text = result.ToString();
 
             ListViewItem item = new ListViewItem(num1.ToString());
             item.SubItems.Add("+");
@@ -89,7 +88,7 @@ namespace AppSimple
             }
 
             int result = num1.Value - num2.Value;
-            label_result.Text = result.ToString();
+            result.ToString();
 
          
             ListViewItem item = new ListViewItem(num1.ToString());
@@ -103,7 +102,6 @@ namespace AppSimple
         {
             textBox1.Text = "";
             textBox2.Text = "";
-            label_result.Text = "0";
             num1 = null;
             num2 = null;
         }
