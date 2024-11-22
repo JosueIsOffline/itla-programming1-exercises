@@ -36,8 +36,6 @@
             label2 = new Label();
             textBox2 = new TextBox();
             label3 = new Label();
-            label_result = new Label();
-            label5 = new Label();
             button1 = new Button();
             listView1 = new ListView();
             SuspendLayout();
@@ -121,27 +119,6 @@
             label3.TabIndex = 6;
             label3.Text = "Calculadora";
             // 
-            // label_result
-            // 
-            label_result.AutoSize = true;
-            label_result.Font = new Font("Segoe UI", 16F);
-            label_result.Location = new Point(714, 66);
-            label_result.Name = "label_result";
-            label_result.Size = new Size(25, 30);
-            label_result.TabIndex = 7;
-            label_result.Text = "0\r\n";
-            label_result.Click += label4_Click;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label5.Location = new Point(652, 9);
-            label5.Name = "label5";
-            label5.Size = new Size(145, 37);
-            label5.TabIndex = 8;
-            label5.Text = "Resultado";
-            // 
             // button1
             // 
             button1.BackColor = Color.DodgerBlue;
@@ -171,8 +148,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(listView1);
             Controls.Add(button1);
-            Controls.Add(label5);
-            Controls.Add(label_result);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(textBox2);
@@ -196,8 +171,6 @@
         private Label label2;
         private TextBox textBox2;
         private Label label3;
-        private Label label_result;
-        private Label label5;
         private Button button1;
         private ListView listView1;
     }
