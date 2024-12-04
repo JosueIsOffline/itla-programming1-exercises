@@ -47,7 +47,7 @@ Complete control over membership lifecycles
 💰 **Payment Processing**
 <div style="display: flex; justify-content: space-around;">
   <div>
-    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%205.PNG" alt="Payment Processing" style="width: 500px;">
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%205.1.PNG" alt="Payment Processing" style="width: 500px;">
   </div>
 </div>
 Streamlined payment tracking and processing
@@ -119,7 +119,7 @@ USE MembershipSystem;
 ```xml
 <!-- Update App.config with your magic strings -->
 <connectionStrings>
-  <add name="MembershipDB" 
+  <add name="connectionString" 
        connectionString="Your_Connection_String_Here"
        providerName="System.Data.SqlClient" />
 </connectionStrings>
