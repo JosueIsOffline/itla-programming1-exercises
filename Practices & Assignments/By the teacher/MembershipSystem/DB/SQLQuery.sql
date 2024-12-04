@@ -86,13 +86,6 @@ INSERT INTO PAYMENTS (membership_id, amount, payment_date, status, reference) VA
 
 
 
-IF EXISTS (SELECT * FROM EMPLOYEES WHERE username = 'admin')
-    DELETE FROM EMPLOYEES WHERE username = 'admin';
-
--- First, let's drop the existing stored procedure if it exists
-IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'sp_GetUser')
-DROP PROCEDURE sp_GetUser
-GO
 
 -- Insert an employee for testing
 INSERT INTO EMPLOYEES (
@@ -104,7 +97,6 @@ INSERT INTO EMPLOYEES (
     active
 ) VALUES (
     'admin',
-    -- This is the hashed version of 'admin123' using SHA256
     'admin123',  
     'System',
     'Administrator',
@@ -135,9 +127,3 @@ BEGIN
         AND active = 1;
 END
 GO
-
-SELECT * FROM MEMBERSHIPS
-
-UPDATE EMPLOYEES 
-SET password_hash = 'jGl25bVBBBW96Qi9Te4V37Fnqchz/Eu4qB9vKrRIqRg=' -- Este es el hash de 'admin123'
-WHERE username = 'admin';  
