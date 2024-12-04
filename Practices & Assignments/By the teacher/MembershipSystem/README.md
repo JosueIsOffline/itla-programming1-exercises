@@ -119,7 +119,7 @@ USE MembershipSystem;
 ```xml
 <!-- Update App.config with your magic strings -->
 <connectionStrings>
-  <add name="MembershipDB" 
+  <add name="connectionString" 
        connectionString="Your_Connection_String_Here"
        providerName="System.Data.SqlClient" />
 </connectionStrings>
