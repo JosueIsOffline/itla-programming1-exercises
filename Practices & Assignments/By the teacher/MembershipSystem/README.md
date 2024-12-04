@@ -13,23 +13,43 @@ MembershipPro Manager is your all-in-one solution for handling memberships, paym
 ## 📸 System Showcase
 
 🎨 **Modern UI Design**
-Show Image
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%201.PNG" alt="Login" style="width: 300px;">
+  </div>
+</div>
 Sleek login interface with modern design principles
 
 🏠 **Interactive Dashboard**
-Show Image
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%202.PNG" alt="Dashboard" style="width: 500px;">
+  </div>
+</div>
 Your command center for all membership operations
 
 👥 **Member Management Interface**
-Show Image
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%203.PNG" alt="Member Managment" style="width: 500px;">
+  </div>
+</div>
 Efficient member registration and profile management
 
 💫 **Dynamic Membership Control**
-Show Image
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%204.PNG" alt="Membership Control" style="width: 500px;">
+  </div>
+</div>
 Complete control over membership lifecycles
 
 💰 **Payment Processing**
-Show Image
+<div style="display: flex; justify-content: space-around;">
+  <div>
+    <img src="https://github.com/JosueIsOffline/itla-programming1-exercises/blob/main/Practices%20%26%20Assignments/By%20the%20teacher/MembershipSystem/Screenshoots/Cap%205.PNG" alt="Payment Processing" style="width: 500px;">
+  </div>
+</div>
 Streamlined payment tracking and processing
 
 ### ✨ Key Features
