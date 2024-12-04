@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+App.config
+Web.config
+!App.config.example
+!Web.config.example
+*.config
+!.gitignore
+!packages.config
+!NuGet.config
+
 # User-specific files
 *.rsuser
 *.suo
