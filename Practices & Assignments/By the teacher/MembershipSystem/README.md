@@ -10,6 +10,28 @@
 
 MembershipPro Manager is your all-in-one solution for handling memberships, payments, and user management with style. Built with modern C# and a sleek Windows Forms interface, it's the tool you didn't know you needed until now.
 
+## 📸 System Showcase
+
+🎨 **Modern UI Design**
+Show Image
+Sleek login interface with modern design principles
+
+🏠 **Interactive Dashboard**
+Show Image
+Your command center for all membership operations
+
+👥 **Member Management Interface**
+Show Image
+Efficient member registration and profile management
+
+💫 **Dynamic Membership Control**
+Show Image
+Complete control over membership lifecycles
+
+💰 **Payment Processing**
+Show Image
+Streamlined payment tracking and processing
+
 ### ✨ Key Features
 
 ```mermaid
@@ -97,7 +119,7 @@ Password: admin123   # Please change this immediately!
 ├── 🎮 Controllers/    # Business logic wizardry
 ├── 📊 Models/         # Data structures
 ├── 🖼️ Forms/         # UI magic happens here
-├── 🗄️ DB/      # SQL sorcery
+├── 🗄️ DB/            # SQL sorcery
 ├── 🎨 Resources/     # Assets & resources
 └── 🛠️ Utils/         # Helper tools
 ```
