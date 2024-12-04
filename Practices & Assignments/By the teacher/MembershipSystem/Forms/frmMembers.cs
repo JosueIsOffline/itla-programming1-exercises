@@ -333,5 +333,27 @@ namespace MembershipSystem.Forms
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void dgvdata_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (e.ColumnIndex == dgvdata.Columns["active"].Index && e.Value != null)
+            {
+                bool isActive = Convert.ToBoolean(e.Value);
+                var row = dgvdata.Rows[e.RowIndex];
+
+                if (!isActive)
+                {
+                    e.Value = "INACTIVO";
+                    e.CellStyle.ForeColor = Color.Red;
+                }
+                else
+                {
+                    e.Value = "ACTIVO";
+                    e.CellStyle.ForeColor = Color.Green;
+                }
+                e.CellStyle.Font = new Font(dgvdata.DefaultCellStyle.Font, FontStyle.Bold);
+                e.FormattingApplied = true;
+            }
+        }
     }
 }
